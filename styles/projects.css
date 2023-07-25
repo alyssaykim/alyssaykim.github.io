@@ -1,0 +1,65 @@
+body {
+    background-color: #ebe7e2;
+    background-image: url('../images/phone.png');
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: center center;
+    background-position-y: 2%;
+    font-family: gill sans;
+}
+
+#title {
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+.phone {
+    width: 250px;
+    margin: auto;
+    padding: 25px 0 0 0;
+}
+
+#tools {
+    padding: 30px 0 0 0;
+}
+
+.list {
+    font-size: large;
+}
+
+.icons {
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    color: #c3a3ff;
+}
+
+a:link, a:visited {
+    color: #b791fd;
+}
+
+.row {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+#github-popup, #arrow-popup {
+    background-color: rgb(153, 151, 151);
+    color: white;
+    padding: 3px 5px;
+    visibility: hidden;
+}
+
+#back-btn {
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+footer {
+    padding: 100px 0 20px 0;
+    text-align: center;
+}

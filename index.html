@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Alyssa Kim</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+            rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+                                                                                        crossorigin="anonymous">
+        <link href="styles/main.css" rel="stylesheet" type="text/css"/> 
+        <script src="https://kit.fontawesome.com/61a904681e.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h3 id="current-playlist">Current Playlist:&nbsp;<strong>Alyssa's Projects</strong> <i class="fa-solid fa-headphones"></i></h3>
+
+            <!-- Phone -->
+            <div class="phone">
+
+                <h5 id="click-for-details">click on the song cover for project details!</h5>
+
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="expensetracker.html"><img src="images/expense-tracker-cover.png" class="d-block w-25" alt="expense tracker album cover"></a>
+                            <a href="expensetracker.html"><h5 class="title">Expense Tracker</a> &emsp;&emsp;&emsp;<i id="heart-1" class="fa-solid fa-heart"></i> </h5>
+                            <p id="subtitle">Alyssa Kim</p>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="crownwebsite.html"><img id="crown-album-cover" src="images/crown-website-cover.png" class="d-block w-25" alt="crown website album cover"></a>
+                            <a href="crownwebsite.html"><h5 id="crown-title" class="title">Crown Quartet Website</a> &emsp; <i id="heart-2" class="fa-solid fa-heart"></i> </h5>
+                            <p id="subtitle">Alyssa Kim</p>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="notationapp.html"><img src="images/notation-app-cover.png" class="d-block w-25" alt="notation app album cover"></a>
+                            <a href="notationapp.html"><h5 id="notation-album-cover" class="title">Music Notation App</a> &emsp;&emsp;<i id="heart-3" class="fa-solid fa-heart"></i> </h5>
+                            <p id="subtitle1">Alyssa Kim & Melina Garza</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <img id="play-bar" src="images/play-bar.png" alt="play bar">
+                <div id="play-icons">
+                    <i class="fa-solid fa-backward-fast fa-lg" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"></i> 
+                    <i id="play-button" class="play-btn fa-solid fa-circle-play fa-5x" type="button" src="#"></i> 
+                    <i class="fa-solid fa-forward-fast fa-lg" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"></i>
+                </div>
+                
+                <div id="next-prev-arrows" style="color: #735e38">
+                    <i id="prev-arrow" class="fa-solid fa-arrow-up-long fa-bounce"></i>
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <i class="fa-solid fa-arrow-up-long fa-bounce"></i> <br>
+                    prev&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;next
+                </div>
+
+            </div>
+
+        </div> <!-- end of container class -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+                                                                crossorigin="anonymous"></script>
+        <script src="Scripts/jquery-3.7.0.js"></script>
+        <script src="Scripts/mainEvents.js"></script>
+
+        <script>
+            $(function() {
+
+                $('.phone').hide().fadeIn(1000);
+
+            });
+        </script>
+
+    </body>
+
+    <footer>
+        <p>&copy; Alyssa Kim 2023</p>
+    </footer>
+
+</html>

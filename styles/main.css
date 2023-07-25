@@ -1,0 +1,91 @@
+body {
+    background-color: #ebe7e2;
+    background-image: url('../images/phone.png');
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: center center;
+    background-position-y: 10%;
+    font-family: gill sans;
+}
+
+#current-playlist {
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+#click-for-details {
+    text-align: center;
+    margin: auto;
+    padding: 60px 0 0 0;
+    width: 200px;
+    color: #8074bc;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel {
+    max-width: 300px;
+    margin: auto;
+    padding: 10px 0 0 0;
+}
+
+.carousel-inner img {
+    margin: auto;
+    min-width: 225px;
+}
+
+#crown-album-cover {
+    padding: 14px 0 0 0;
+}
+
+#notation-album-cover {
+    padding: 30px 0 0 0;
+}
+
+.title {
+    text-align: center;
+    margin-right: 100px;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0 0 0;
+}
+
+#crown-title {
+    font-size: 18px;
+}
+
+#subtitle {
+    text-align: center;
+    margin-right: 200px;
+    width: 52%;
+}
+#subtitle1 {
+    text-align: center;
+    width: 83%;
+}
+
+#play-bar {
+    margin: auto;
+    max-width: 230px;
+    display: block
+}
+
+#play-icons, #next-prev-arrows {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.play-btn {
+    padding: 0 30px;
+}
+
+footer {
+    padding: 100px 0 20px 0;
+    text-align: center;
+}
+
