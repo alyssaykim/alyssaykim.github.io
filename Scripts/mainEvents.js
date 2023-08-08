@@ -1,3 +1,37 @@
+// Album cover hover
+
+let expenseCover = this.document.getElementById('expense-album-cover');
+let crownCover = this.document.getElementById('crown-album-cover')
+let notationCover = this.document.getElementById('notation-album-over');
+
+function albumMouseover(album) {
+    album.style.border = "solid 3px #8074bc";
+}
+function albumMouseleave(album) {
+    album.style.border = "";
+}
+
+expenseCover.addEventListener("mouseover", function() {
+    albumMouseover(expenseCover)
+});
+expenseCover.addEventListener("mouseleave", function() {
+    albumMouseleave(expenseCover)
+});
+crownCover.addEventListener("mouseover", function() {
+    albumMouseover(crownCover)
+});
+crownCover.addEventListener("mouseleave", function() {
+    albumMouseleave(crownCover)
+});
+notationCover.addEventListener("mouseover", function() {
+    albumMouseover(notationCover)
+});
+notationCover.addEventListener("mouseleave", function() {
+    albumMouseleave(notationCover)
+});
+
+// Play button click
+
 let playBtn = this.document.getElementById('play-button');
 let count = 0;
 
@@ -14,6 +48,8 @@ playBtn.addEventListener("click", function() {
         playBtn.classList.add('fa-circle-play');
     }
 })
+
+// Heart button click
 
 let heart1Btn = this.document.getElementById('heart-1');
 let heart2Btn = this.document.getElementById('heart-2');
